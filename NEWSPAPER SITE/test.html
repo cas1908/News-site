@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            display: grid;
+            grid-template-columns: 20em 1fr;
+
+        }
+        header{
+            grid-column: 1/3;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+        ul{
+            display: inline-flex;
+            gap: 2rem;
+        }
+        nav{
+            grid-template-columns: 20em;
+            /* grid-column: 1; */
+        }
+        nav ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header style="background-color: yellowgreen;">
+            <h3>CAS</h3>
+            <ul>
+                <li>Post</li>
+                <li>Media</li>
+                <li>Show</li>
+                <li>Tv</li>
+            </ul>
+        </header>
+        <nav style="background-color: blue;">
+            <ul>
+                <li>Post</li>
+                <li>Media</li>
+                <li>Show</li>
+                <li>Tv</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
