@@ -565,7 +565,7 @@ main{
     height: auto;
 }
 .exclusive p{
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .art-content a{
     border: 1px solid yellowgreen;
@@ -607,7 +607,7 @@ main{
     height: auto;
 }
 .news-article div p{
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .art-content h2, .news-article h2{
     background-color: #443E44;
@@ -659,7 +659,7 @@ main{
     gap: 0.5rem;
 }
 .proj-name p{
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 0%;
     padding: 0.3rem;
 }
@@ -828,7 +828,7 @@ input{
 .slide-text {
     position: absolute;
     left: 0%;
-    top: 14%;
+    top: 17%;
     width: 100%;
 }
 .slide-text h1{
@@ -852,7 +852,7 @@ input{
     background-color: rgb(255, 255, 255);
     position: absolute;
     left: 5%;
-    top: 2%;
+    top: 0%;
     border-radius: 2rem;
     opacity: 0.2;
     border: 3px inset rgb(220, 189, 189);
@@ -905,6 +905,7 @@ main{
     display: grid;
     grid-template-rows: 12em;
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 .ex-img{
     background-image: url('./images/cas4.jpeg');
@@ -912,7 +913,7 @@ main{
     background-repeat: no-repeat;
     border-radius: 1rem;
     width: 95%;
-    margin: 0 auto;
+    margin-left: 2%;
     height: auto;
 }
 .exclusive p{
@@ -1017,6 +1018,7 @@ main{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 10em);
     gap: 0.5rem;
+    margin: 0 auto;
 }
 .proj-name p{
     font-size: 0.85em;
@@ -1033,7 +1035,7 @@ main{
     background-image: url('./images/cas6.jpeg');
     width: 95%;
     height: 100%;
-    margin: 0 auto;
+    margin-left: 2%;
     border-radius: 1rem;
 }
 .col-4{
