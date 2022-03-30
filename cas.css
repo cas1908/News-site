@@ -1,6 +1,6 @@
 * {
     margin: 0%;
-    padding: 0.2rem 0.19rem;
+    padding: 0.2rem 0.2rem;
     box-sizing: border-box;
 }
 body{
@@ -484,7 +484,7 @@ input{
 .slide-text {
     position: absolute;
     left: 0%;
-    top: 15%;
+    top: 17%;
     width: 100%;
 }
 .slide-text h1{
@@ -554,13 +554,14 @@ main{
     display: grid;
     grid-template-rows: 15em;
     grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
 }
 .ex-img{
     background-image: url('./images/cas4.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     height: auto;
 }
@@ -669,7 +670,7 @@ main{
 }
 .proj-name-img{
     background-image: url('./images/cas6.jpeg');
-    width: 95%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     border-radius: 1rem;
@@ -828,7 +829,7 @@ input{
 .slide-text {
     position: absolute;
     left: 0%;
-    top: 17%;
+    top: 17.5%;
     width: 100%;
 }
 .slide-text h1{
@@ -897,7 +898,6 @@ main{
     display: grid;
     grid-template-rows: 28em 100em 14em;
     grid-template-columns: 1fr;
-    margin-left: -2%;
     /* background-color: #797ca5; */
     /* background: url('./images/world2.jpg'); */
 }
@@ -912,8 +912,8 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
-    width: 95%;
-    margin-left: 2%;
+    width: 100%;
+    margin: 0 auto;
     height: auto;
 }
 .exclusive p{
@@ -1009,7 +1009,6 @@ main{
 .row-2{
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: -2%;
     /* background-color: rgb(159, 86, 226); */
     /* background: linear-gradient(to left, #4a444a7d, #5b7ca4), url('./images/world2.jpg'); */
 }
@@ -1035,7 +1034,7 @@ main{
     background-image: url('./images/cas6.jpeg');
     width: 95%;
     height: 100%;
-    margin-left: 2%;
+    margin: 0 auto;
     border-radius: 1rem;
 }
 .col-4{
@@ -1056,7 +1055,7 @@ main{
 .ft-pro, .title, .new-doc{
     border: 1px solid white;
     background-color: #0c3260;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .ft-pro h3, .new-doc h3, .feat-vid h3{
     font-size: 0.85em;
