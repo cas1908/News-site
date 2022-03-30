@@ -224,7 +224,8 @@ main{
 }
 .latest-news{
     border: 1px solid white;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 2%;
     background-color: #0c3260;
 }
 .news-article{
