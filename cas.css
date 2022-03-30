@@ -546,7 +546,7 @@ main{
 }
 .col-2{
     display: grid;
-    grid-template-rows: 16em 49em 12em;
+    grid-template-rows: 16em 53em 12em;
     /* background-color: #797ca5; */
     /* background: url('./images/world2.jpg'); */
 }
@@ -590,7 +590,7 @@ main{
 .news-article{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 22em 22em;
+    grid-template-rows: 25em 25em;
     width: 100%;
 }
 .news-article .img{
