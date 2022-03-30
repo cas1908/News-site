@@ -919,7 +919,8 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
-    width: 100%;
+    width: 95%;
+    margin: 0 2%;
     height: auto;
 }
 .exclusive p{
@@ -930,6 +931,7 @@ main{
     width: 40%;
     color: yellowgreen;
     text-decoration: none;
+    font-size: 0.85em;
     margin-left: 1%;
 }
 .art-content a:hover{
@@ -1037,9 +1039,9 @@ main{
 }
 .proj-name-img{
     background-image: url('./images/cas6.jpeg');
-    width: 100%;
+    width: 95%;
     height: 100%;
-    margin: 0%;
+    margin: 0 1%;
     border-radius: 1rem;
 }
 .col-4{
