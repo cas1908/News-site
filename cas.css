@@ -1,6 +1,6 @@
 * {
-    margin: 0%;
-    padding: 0.2rem 0.5rem;
+    margin: 0% auto;
+    padding: 0.2rem 0;
     box-sizing: border-box;
 }
 body{
@@ -372,15 +372,6 @@ footer h6{
 
 
 @media screen and (max-width: 70em) {
-*{
-    margin: 0%;
-    padding: 0.2rem;
-    box-sizing: border-box;
-}
-    .container {
-        display: grid;
-        grid-gap: 0.5rem;
-    }
       /* HEADER */
 header{
     width: 100%;
@@ -570,6 +561,7 @@ main{
     background-repeat: no-repeat;
     border-radius: 1rem;
     width: 95%;
+    margin: 0 auto;
     height: auto;
 }
 .exclusive p{
@@ -677,9 +669,9 @@ main{
 }
 .proj-name-img{
     background-image: url('./images/cas6.jpeg');
-    width: 100%;
+    width: 95%;
     height: 100%;
-    margin: 1%;
+    margin: 0 auto;
     border-radius: 1rem;
 }
 .col-4{
@@ -920,7 +912,7 @@ main{
     background-repeat: no-repeat;
     border-radius: 1rem;
     width: 95%;
-    margin: 0 2%;
+    margin: 0 auto;
     height: auto;
 }
 .exclusive p{
@@ -1041,7 +1033,7 @@ main{
     background-image: url('./images/cas6.jpeg');
     width: 95%;
     height: 100%;
-    margin: 0 1%;
+    margin: 0 auto;
     border-radius: 1rem;
 }
 .col-4{
