@@ -1037,6 +1037,7 @@ nav{
 }
 .nav-menu.active{
     position: fixed;
+    left:0%;
     height: 100vh;
 }
 /* .nav-menu.active  */
